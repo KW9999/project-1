@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li a {
+    text-decoration: none;
+}
