@@ -131,3 +131,9 @@ button {
 .pathtext p {
     font-size: 12px;
 }
+
+.quotecontainer {
+   background-color: #E5E7EB; 
+   display: flex;
+   
+}
