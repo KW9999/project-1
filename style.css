@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     padding: 16px;
     background-color: #1F2937;
-    padding: 16px 115px;
+    padding: 16px 185px;
     align-items: center;
 }
 
@@ -73,7 +73,6 @@ body {
 
 .top-card {
     width: 600px;
-    flex-shrink: 0;
 }
 
 .topsubtext {
@@ -164,7 +163,7 @@ button.button1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 85px;
+    padding: 90px;
 }
 
 .ctabox {
@@ -184,4 +183,15 @@ button.button2 {
     color: white;
     padding: 0px 28px;
     border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    padding: 26px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'roboto-regular';
 }
