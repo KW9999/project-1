@@ -53,8 +53,9 @@ body {
     display: flex;
     background-color: #1F2937;
     padding: 75px 100px;
-    justify-content: space-between;
+    justify-content: center;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .levelup {
@@ -66,6 +67,7 @@ body {
 
 .top-card {
     width: 600px;
+    flex-shrink: 0;
 }
 
 .topsubtext {
@@ -73,8 +75,12 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
-img {
-    width: 500px;
+.hero-container img {
+    width: 450px;
+    flex-shrink: 0;
+    min-width: 400px;
+    max-height: 350px;
+    border: 1px solid black;
 }
 
 button {
@@ -89,18 +95,39 @@ button {
 .info {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .infocont {
     display: flex;
-    justify-content: center;
-    gap: 36px;
+    justify-content: space-around;
+    gap: 55px;
+}
+
+.paths {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    max-width: 128px;
+    margin: 0px;
 }
 
 .paths img {
     height: 100px;
     width: 100px;
-    border: 3px solid #3882F6;
+    border: 3px solid #1F2937;
     border-radius: 10px;
     padding: 4px;
+    background-color: green;
+}
+
+.infohead {
+    color: black;
+    font-size: 36px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.pathtext p {
+    font-size: 12px;
 }
