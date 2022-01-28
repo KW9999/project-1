@@ -81,7 +81,26 @@ button {
     background-color: #3882F6;
     border: none;
     padding: 4px 24px;
-    color: #F9FAF8;
+    color: white;
     text-align: center;
     border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.infocont {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.paths img {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    padding: 4px;
 }
